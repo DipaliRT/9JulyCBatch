@@ -26,7 +26,7 @@ public class Base
 	    
 		Utility.waitt(driver, 1000);
 		
-		Reporter.log("Lunching Browser...", true);
+		Reporter.log("Lunching Browser...", false);
 		
 	}
 	
