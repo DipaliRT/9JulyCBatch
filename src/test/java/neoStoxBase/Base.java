@@ -20,9 +20,11 @@ public class Base
 
 		driver = new ChromeDriver();
 		driver.get(Utility.readDataFromPropertyFile("url"));
-	    driver.manage().window().maximize();    
+	    driver.manage().window().maximize();   
+	    
 		Utility.waitt(driver, 1000);
-		Reporter.log("Lunching Browser...", true);
+		
+		Reporter.log("Lunching Browser...", false);
 		
 	}
 	
